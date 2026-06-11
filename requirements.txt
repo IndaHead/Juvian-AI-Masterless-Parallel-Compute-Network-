@@ -1,0 +1,14 @@
+# Juvian Grid -- Python dependencies
+#
+# Core runtime (required):
+numpy>=1.24
+cryptography>=41.0
+
+# Optional -- only needed if you run a node with the --web dashboard flag
+# (run_node.py --web <port>). The core LAN mesh runs fine without it.
+aiohttp>=3.9
+
+# Standard library (no install needed), listed for clarity:
+#   asyncio, socket, hashlib, struct, base64, json, uuid, argparse, math
+
+# Python 3.9+ required (uses asyncio.run, f-strings, dataclasses).

@@ -1,0 +1,19 @@
+# Juvian Grid -- runtime-generated artifacts (never commit)
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Tensor history ledgers (generated per node at runtime)
+history_*.npy
+*.npy
+
+# Session key-chain persistence (generated per node at runtime)
+*.frac
+
+# Proof-of-work birth-certificate cache (generated alongside the identity key)
+*.pow
+
+# Node identity private keys -- NEVER commit these. They have no fixed
+# extension (the path is operator-chosen via identity_path); if you keep them
+# inside the repo directory, add their exact filenames here.
