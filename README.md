@@ -376,7 +376,7 @@ the no-key-transmission verification handshake, and the memory-mapped ledger.
 
 ## License
 
-Co-authored sovereign substrate, released as open source.
+Co-authored Juvian System, released as open source.
 
 **Lead Author:** Jason M. Vajler
 **Co-Author:** Dwayne Aubery
